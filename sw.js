@@ -1,4 +1,4 @@
-const CACHE = "album-static-v2";
+const CACHE = "album-static-v3";
 const ASSETS = [
   "./",
   "./index.html",
@@ -8,6 +8,8 @@ const ASSETS = [
   "./workers/search.worker.js",
   "./workers/export.worker.js",
   "./pwa/manifest.webmanifest",
+  "./pwa/icons/icon-192.png",
+  "./pwa/icons/icon-512.png",
   "./sw.js"
 ];
 
