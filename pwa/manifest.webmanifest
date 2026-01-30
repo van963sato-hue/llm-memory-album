@@ -2,10 +2,10 @@
   "name": "LLM Memory Album",
   "short_name": "MemoryAlbum",
   "start_url": "../",
-  "scope": "../",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
+  "scope": "../",
   "icons": [
     {
       "src": "./icons/icon-192.png",
