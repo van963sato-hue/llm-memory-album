@@ -3,17 +3,14 @@
    - Indexes: conversations (chunked), moments, prompts, history (including memory).
 */
 const DB_NAME = "llm_memory_album_v2";
-const DB_VER = 4;
+const DB_VER = 3;
 
 const STORES = {
   conv: "conversations",
   moment: "moments",
   prompt: "prompt_profiles",
   history: "history_events",
-  iconcfg: "icon_config",
-  // v4: (このワーカーでは未使用だがスキーマ整合性のため)
-  importState: "import_state",
-  convIndex: "conv_index"
+  iconcfg: "icon_config"
 };
 
 let cancelled = false;
