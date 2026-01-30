@@ -1,7 +1,7 @@
 {
   "name": "LLM Memory Album",
   "short_name": "MemoryAlbum",
-  "start_url": "./index.html",
+    "start_url": "../index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
@@ -19,4 +19,5 @@
       "purpose": "any maskable"
     }
   ]
+"scope": "../"
 }
