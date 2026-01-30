@@ -153,7 +153,8 @@
 
   <script type="module" src="./app.js"></script>
   <script>
-    if ("serviceWorker" in navigator) navigator.serviceWorker.register("./pwa/sw.js");
+    // sw.js をルートに置いて scope をアプリ全体にする（/pwa/ 配下だけに限定されるのを防ぐ）
+    if ("serviceWorker" in navigator) navigator.serviceWorker.register("./sw.js", { scope: "./" });
   </script>
 <div id="cropModal" class="modalBackdrop">
   <div class="modalCard">
