@@ -1,4 +1,4 @@
-const CACHE = "album-static-v4";
+const CACHE = "album-static-v3";
 const ASSETS = [
   "./index.html",
   "./app.js",
